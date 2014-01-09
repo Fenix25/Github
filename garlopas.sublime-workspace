@@ -60,23 +60,6 @@
 			}
 		},
 		{
-			"file": "main.styl",
-			"settings":
-			{
-				"buffer_size": 598,
-				"line_ending": "Windows",
-				"name": "main.styl"
-			}
-		},
-		{
-			"file": "main.css",
-			"settings":
-			{
-				"buffer_size": 527,
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "estilos.css",
 			"settings":
 			{
@@ -118,6 +101,9 @@
 	"file_history":
 	[
 		"/C/Users/Miguel/Desktop/Curso WEB/curso/estilos.css",
+		"/C/Users/Miguel/Desktop/Curso WEB/curso/main.css",
+		"/C/Users/Miguel/Desktop/Curso WEB/curso/main.styl",
+		"/C/Users/Miguel/Desktop/Curso WEB/curso/index.html",
 		"/C/Users/Miguel/AppData/Roaming/Sublime Text 2/Packages/User/Base File.sublime-settings",
 		"/C/Users/Miguel/AppData/Roaming/Sublime Text 2/Packages/Alignment/Base File.sublime-settings",
 		"/C/Users/Miguel/AppData/Roaming/Sublime Text 2/Packages/Alignment/Default (Windows).sublime-keymap",
@@ -159,7 +145,7 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -174,8 +160,8 @@
 						"selection":
 						[
 							[
-								676,
-								676
+								0,
+								0
 							]
 						],
 						"settings":
@@ -184,67 +170,13 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 323.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "main.styl",
-					"settings":
-					{
-						"buffer_size": 598,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								598,
-								598
-							]
-						],
-						"settings":
-						{
-							"auto_name": "main.styl",
-							"syntax": "Packages/Text/Plain text.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "main.css",
-					"settings":
-					{
-						"buffer_size": 527,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
 					"file": "estilos.css",
 					"settings":
 					{
@@ -265,7 +197,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 2940.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
