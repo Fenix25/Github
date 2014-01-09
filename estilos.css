@@ -35,6 +35,18 @@ body
 	font-size	: 16px;
 	margin		: 0;
 }
+footer
+{
+	background: gray;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+footer p
+{
+	margin: 0;
+	padding: 0;
+}
 header
 {
 	background	: #434343;
@@ -54,6 +66,12 @@ header h1
 	margin		: 0 0 0 1em;
 	width		: 60%;
 	text-align  : center;
+}
+header figcaption:before
+{
+	content: "\e600";
+	font-family: "iconFont";
+	font-size: 0.5em;
 }
 header #avatar
 {
@@ -113,19 +131,57 @@ nav #publicar_nav a
 #contenido .item
 {
 	background		: white;
-	margin			: 1em;
 	border-bottom	: 3px #22BCE0 solid;
+	margin			: 1em 1em 5em 1em;
+	min-height      : 128px;
+	position: relative;
+	width: 70%
+}
+#contenido .item .votacion
+{
+	background: white;
+	border-radius: 0 0 5px 5px;
+	margin: 3px 0;
+	padding: 0.5em 0;
+	position: absolute;
+	text-align: center;
+	top: 100%;
+	width: 96px;
+}
+#contenido .item .votacion .up:before
+{
+	content: "\e601";
+	font-family: "iconfont";
+}
+#contenido .item .votacion .down:before
+{
+	content: "\e600";
+	font-family: "iconFont"
 }
 #contenido .item p
 {
 	color		: #7A7A7A;
 	font-size	: 0.9em;
 }
+#contenido .item .autor_item
+{
+	
+}
+#contenido .item .datos_item
+{
+	text-align: right;
+}
+#contenido .item .datos_item .guardar_item:before
+{
+	content: "\e603";
+	font-family: "iconfont";
+}
 #contenido .item .datos_item .tag_item
 {
 	background		: #22BCE0;
 	border-radius	: 0.5em;
 	color			: white;
+	float: left;
 	padding			: 0.2em 0.5em;
 	text-decoration	: none;
 
@@ -150,6 +206,22 @@ nav #publicar_nav a
 	color			: #444;
 	text-decoration	: none;
 }
+#registrarse
+{
+	background: white;
+	border-radius: .5em;
+	display: block;
+	float: right;
+	margin: .5em .5em;
+	text-align: center;
+	width: 25%;
+}
+#registrarse a
+{
+	background: gray;
+	border-radius: .5em;
+	padding: .5em .5em;
+}
 .icon-arrow-down:before {
 	content: "\e600";
 }
@@ -168,11 +240,9 @@ nav #publicar_nav a
 .icon-house:before {
 	content: "\e605";
 }
-@media screen and (max-width: 1000px) {
-	header {
-		background: red;
-	}
-}
+
+
+
 
 a{color:#22bce0;text-decoration:none}
 body{font:16px Arial}

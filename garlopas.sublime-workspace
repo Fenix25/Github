@@ -55,7 +55,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 1660,
+				"buffer_size": 1670,
 				"line_ending": "Windows"
 			}
 		},
@@ -63,7 +63,7 @@
 			"file": "estilos.css",
 			"settings":
 			{
-				"buffer_size": 3195,
+				"buffer_size": 3314,
 				"line_ending": "Windows"
 			}
 		}
@@ -153,15 +153,15 @@
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 1660,
+						"buffer_size": 1670,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								927,
+								927
 							]
 						],
 						"settings":
@@ -170,7 +170,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 600.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -180,15 +180,15 @@
 					"file": "estilos.css",
 					"settings":
 					{
-						"buffer_size": 3195,
+						"buffer_size": 3314,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								871,
+								871
 							]
 						],
 						"settings":
@@ -197,7 +197,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1980.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
